@@ -3,7 +3,7 @@ layout: default
 title: A Data-Driven Look at VC Fundraising
 ---
 
-# A Data-Driven Look at VC Fundraising 💸📊
+# A Data-Driven Look at VC Fundraising 
 
 Hi, I'm Kuhoo — a data science and finance enthusiast with a background in computer science and entrepreneurship. This project bridges my interest in **venture capital** and **data-driven decision making** by asking one core question:
 
