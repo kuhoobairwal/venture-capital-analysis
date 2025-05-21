@@ -13,6 +13,6 @@ Explore the sections below to see the analysis, model, and insights.
 ---
 
 ### 🧭 Project Navigation
-- [Exploratory Data Analysis](eda.md)
+- [Dataset Overview & Analysis](data.md)
 - [Modeling Approach](model.md)
 - [Key VC Insights](insights.md)
