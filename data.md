@@ -38,14 +38,14 @@ The raw dataset initially contained data on over **6,000 venture capital funds**
 - I conducted initial visual analysis to understand the distribution of numerical variables. This revealed that several columns, including `AUM (Current)`, were **highly skewed** and contained significant outliers. Below are plots showing the boxplot and distribution of `AUM (Current)` before cleaning:
 
 <iframe
- src="aum-raw-distribution.html"
+ src="plots/aum-raw-distribution.html"
  width="800"
  height="600"
  frameborder="0"
 ></iframe>
 
 <iframe
- src="aum-raw-boxplot.html"
+ src="plots/aum-raw-boxplot.html"
  width="800"
  height="600"
  frameborder="0"
@@ -55,14 +55,14 @@ The raw dataset initially contained data on over **6,000 venture capital funds**
 
 
 <iframe
- src="aum-clean-distribution.html"
+ src="plots/aum-clean-distribution.html"
  width="800"
  height="600"
  frameborder="0"
 ></iframe>
 
 <iframe
- src="aum-clean-boxplot.html"
+ src="plots/aum-clean-boxplot.html"
  width="800"
  height="600"
  frameborder="0"
@@ -92,7 +92,7 @@ Visual analysis of the dataset provided several key insights into the structure 
 Most funds in the dataset are based in the **United States** (2,377), followed by **India** with 213 funds. This trend aligns with expectations, as the U.S. has long been the epicenter of venture capital activity—particularly in regions like Silicon Valley and San Francisco.
 
 <iframe
- src="fund-country-vc.html"
+ src="plots/fund-country-vc.html"
  width="800"
  height="600"
  frameborder="0"
@@ -103,7 +103,7 @@ Most funds in the dataset are based in the **United States** (2,377), followed b
 The majority of funds in the dataset are focused on **Early Stage** investments. Some funds invest across multiple stages (e.g., Seed + Early + Late), but **Late Stage-only funds are relatively rare**. This reflects real-world dynamics: as investment rounds progress, the required check sizes grow substantially—often into the hundreds of millions or billions—making later-stage investing accessible to fewer firms.
 
 <iframe
- src="fund-type-vc.html"
+ src="plots/fund-type-vc.html"
  width="800"
  height="600"
  frameborder="0"
@@ -114,7 +114,7 @@ The majority of funds in the dataset are focused on **Early Stage** investments.
 This scatter plot explores the relationship between the number of funds managed by a firm and its current assets under management (AUM). Each point represents a fund and is color-coded by its age.
 
 <iframe
- src="funds_v_aum.html"
+ src="plots/funds_v_aum.html"
  width="800"
  height="600"
  frameborder="0"
